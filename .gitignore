@@ -1,0 +1,110 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+*.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Production builds
+dist/
+build/
+.next/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings
+.classpath
+*.iml
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Frontend
+frontend/node_modules
+frontend/build
+frontend/.env
+frontend/.cache
+frontend/.env.local
+frontend/dist
+
+# Backend
+backend/node_modules
+backend/.env
+backend/logs/
+backend/dist
+backend/uploads/
+backend/.env.production
+
+# Database
+mongo_data/
+*.db
+*.sqlite
+
+# Misc
+.cache/
+.tmp/
+temp/
+*.bak
+*.tmp
+.history/
+
+# Secrets & Credentials
+.aws/
+.ssh/
+credentials.json
+secrets.json
+
+# CI/CD
+.github/workflows/.env
+.github/workflows/secrets.json
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env.test
+
+# Parcel related files
+dist/
+.cache/
+
+# Rollup
+.rollup.cache/
