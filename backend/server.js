@@ -21,6 +21,11 @@ app.use(cors());
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/posts', require('./routes/posts'));
 
+// Root route
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ message: 'Server is running' });
