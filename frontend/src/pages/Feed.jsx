@@ -5,7 +5,6 @@ import EnhancedCreatePost from '../components/EnhancedCreatePost';
 import EnhancedPostCard from '../components/EnhancedPostCard';
 import SkeletonLoader from '../components/SkeletonLoader';
 import { postsAPI } from '../services/api';
-import { useAuth } from '../context/AuthContext';
 import { motion } from 'framer-motion';
 
 const Feed = () => {
