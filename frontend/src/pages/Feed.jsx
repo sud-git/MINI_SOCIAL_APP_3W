@@ -11,7 +11,6 @@ import { motion } from 'framer-motion';
 const Feed = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { token } = useAuth();
 
   // Fetch all posts
   const fetchPosts = async () => {
