@@ -52,10 +52,10 @@ git status  # Should NOT show node_modules or .env files
   - [x] jsonwebtoken 9.0.0
   - [x] CORS
   - [x] Dotenv
-- [x] Scripts included: `start`, `dev`
-- [x] Name and version set correctly
-- [x] Main entry point: `server.js`
-- [x] No syntax errors in `package.json`
+  - [x] Scripts included: `start`, `dev`
+  - [x] Name and version set correctly
+  - [x] Main entry point: `server.js`
+  - [x] No syntax errors in `package.json`
 
 ### Environment Template
 - [x] `backend/.env.example` contains all required variables:
@@ -75,11 +75,11 @@ git status  # Should NOT show node_modules or .env files
   - [x] Routes properly registered
   - [x] Error handling middleware present
   - [x] Connection pool configured
-- [x] All controllers have proper error handling
-- [x] Authentication middleware verified
-- [x] Database models properly defined
-- [x] No console.log statements left for debugging (optional cleanup)
-- [x] No hardcoded secrets in code
+  - [x] All controllers have proper error handling
+  - [x] Authentication middleware verified
+  - [x] Database models properly defined
+  - [x] No console.log statements left for debugging (optional cleanup)
+  - [x] No hardcoded secrets in code
 
 ### API Endpoints
 - [x] `/api/auth/signup` - User registration
